@@ -1,0 +1,10 @@
+/* This is a css comment */
+/* from http://www.w3schools.com/css/css_howto.asp */
+
+body {
+    padding: 20px;
+}
+
+* {
+	margin-bottom: 10px;
+}

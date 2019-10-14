@@ -1,0 +1,52 @@
+/* Custom Styles */
+
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+	background-image: url("../assets/img/website-background.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+h2{
+	margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+img{
+	margin-bottom: 15px;
+}
+
+/* Sticky footer styles */
+
+html, body {
+	height: 100%;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+.footer {
+	height: 60px;
+	padding-top: 20px;
+	background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+div.panel{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+/* reduce container with*/
+@media (min-width: 1200px){
+	.container {
+    	width: 1000px;
+	}
+}

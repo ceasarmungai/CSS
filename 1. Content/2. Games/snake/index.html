@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="es">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <!--[if lte IE 8]>
+      <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+      <![endif]--> 
+      <title>My First Canvas Game</title>
+   </head>
+   <body>
+         <canvas id="canvas" width="300" height="150" style="background:#999" onclick="playPause()"> Canvas not supported by your browser. </canvas>
+         <div id="button-container">
+         <button class="button move-left-button" onclick="pressButton(37)">
+            LEFT
+         </button>
+         <button class="button move-up-button" onclick="pressButton(38)">
+            UP
+         </button>
+         <button class="button move-down-button" onclick="pressButton(40)">
+            DOWN
+         </button>
+         <button class="button move-right-button" onclick="pressButton(39)">
+            RIGHT
+         </button>
+      </div>
+      <script type="application/javascript" src="game.js"></script> 
+   </body>
+</html>

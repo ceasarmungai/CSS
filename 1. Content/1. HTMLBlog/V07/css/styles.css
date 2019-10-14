@@ -1,0 +1,34 @@
+/* Custom Styles */
+
+body{
+	background-color: #aaaaaa;
+	background-image: url('https://cdn.dribbble.com/users/470545/screenshots/3607374/moving-drib.gif');
+}
+
+
+
+/* Sticky footer styles */
+
+html, body {
+	height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+.wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+/* Set the fixed height of the footer here */
+
+.footer {
+	height: 60px;
+	padding-top: 20px;
+	background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.wrap > .container {
+	padding-top: 60px;
+}

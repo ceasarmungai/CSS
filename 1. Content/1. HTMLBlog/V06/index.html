@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<title>Page Title</title>
+		<!-- Defines the scale of the page -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Latest compiled and minified Bootsttrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<!-- Custom styles -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<!--jQuery library, required for botstrap -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<!-- Defines a client-side script -->
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	
+	<body>
+
+		<!-- WRAP is part of the sticky footer example -->
+		<!-- found at https://getbootstrap.com/2.3.2/examples/sticky-footer-navbar.html -->
+		<div class="wrap">
+			<header>
+				<!-- Found at https://getbootstrap.com/components/#navbar -->
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span>MENU</span>
+							</button>
+							<a class="navbar-brand" href="#">Brand</a>
+						</div>
+
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+
+			<div class="main-content">
+				<div class="container">
+
+					<!-- Bootstrap panel explained here -->
+					<!-- http://www.w3schools.com/bootstrap/bootstrap_panels.asp -->
+					<div class="panel panel-default panel-red">
+						<div class="panel-body">
+							<h2>Post 1</h2>
+							<p>Hello this is the text</p>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h2>Post 2</h2>
+							<p>Hello this is the text</p>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h2>Post 3</h2>
+							<p>Hello this is the text</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer navbar navbar-default">
+			<div class="container">
+				<p class="text-muted">Contact: please write to <a href="mailto:example@mail.com">example@mail.com</a>.</p>
+			</div>
+		</footer>
+
+	</body>
+</html>

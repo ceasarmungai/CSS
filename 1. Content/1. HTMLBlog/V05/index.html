@@ -1,0 +1,176 @@
+<!-- from http://www.w3schools.com/tags/ -->
+
+<!DOCTYPE html> <!-- Defines the document type -->
+<html> <!-- Defines the root of an HTML document -->
+	<head> <!-- Defines information about the document -->
+		<meta charset="UTF-8"> <!-- Defines metadata about an HTML document -->
+		<title>Page Title</title> <!-- Defines a title for the document -->
+		
+		<!-- Defines the relationship between a document and an external resource (most used to link to style sheets) -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<!-- Defines style information for a document -->
+		<style>
+			h1 {
+				text-decoration: underline;
+			}
+		</style>
+
+		<!-- Defines a client-side script -->
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+
+		<!-- Defines a header for a document or section -->
+		<header>
+			<!-- Defines a hyperlink -->
+			<a href="http://www.codingsummerschool.com/" target="_blank">Go to Coding Summer School</a>
+		</header> 
+		
+
+	
+		<!-- Defines an article -->
+		<article>
+			<h1>Hello! This is a h1</h1> <!-- Defines HTML headings -->
+			<!-- ... -->
+			<h6>Hello! This is a h6</h6> <!-- Defines HTML headings -->
+
+			<p>This is a paragraph</p> <!-- Defines a paragraph -->
+		</article> 
+
+		<!-- Defines content aside from the page content -->
+		<aside>
+			 <!-- Defines a section that is quoted from another source --> 
+			<blockquote>This is a quote</blockquote>
+			<a href="https://www.facebook.com"><button>I am a button, please press me!</button></a> <!-- Defines a clickable button -->
+		</aside>
+	
+		<!-- Defines a section in a document -->
+		<div>
+			<!-- Defines sound content -->
+			<audio controls>
+				<!-- Defines multiple media resources for media elements (<video> and <audio>) -->
+				<source src="http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3" type="audio/ogg">
+				<source src="http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
+		</div>
+
+		<!-- Defines a container for an external (non-HTML) application -->
+		<!-- DO NOT USE THIS, PLEASE !!! -->
+		<embed src="assets/helloworld.swf"> 
+
+	
+		<form onsubmit="hello()"> <!-- Defines an HTML form for user input -->
+			<!-- Defines a section in a document -->
+			<div>
+				<select> <!-- Defines a drop-down list -->
+					<option value="volvo">Volvo</option> <!-- Defines an option in a drop-down list -->
+					<option value="saab">Saab</option> <!-- Defines an option in a drop-down list -->
+					<option value="mercedes">Mercedes</option> <!-- Defines an option in a drop-down list -->
+					<option value="audi">Audi</option> <!-- Defines an option in a drop-down list -->
+				</select>
+			</div>
+			
+			<!-- Defines a section in a document -->
+			<div>
+				<!-- Defines a multiline input control (text area) -->
+				<textarea>
+					This is a textarea and you can write wathever you want inside
+				</textarea>
+			</div>
+
+			<!-- Defines a section in a document -->
+			<div>
+				<label>First Name </label> <!-- Defines a label for an <input> element -->
+				<input type="text" name="firstname">	<!-- Defines an input control -->
+			</div>
+
+			<!-- Defines a section in a document -->
+			<div>
+				<label>Last Name </label> <!-- Defines a label for an <input> element -->
+				<input type="text" name="lastname">	<!-- Defines an input control -->
+			</div>
+			
+			<!-- Defines a section in a document -->
+			<div>
+				<input type="submit" value="Submit"> <!-- Defines an input control -->
+			</div>
+
+		</form>
+
+		<!-- Defines an inline frame -->
+		<iframe src="http://www.w3schools.com/" width="300" height="300"></iframe> 
+
+		<img src="http://placekitten.com/200/300" alt="Cat" title="My cat">	<!-- Defines an image -->
+
+		<nav> <!-- Defines navigation links -->
+			<a href="http://google.com">Go to google</a>
+			<a href="http://www.codingsummerschool.com/">Go to Coding Summer School</a>
+		</nav>
+
+
+  		<h2>Lists section</h2> <!-- Defines a section in a document -->
+		<section> <!-- Defines a section in a document -->
+			<h3>Ordered List</h3> <!-- Defines HTML headings -->
+			<ol> <!-- Defines an ordered list -->
+				<li>First element</li> <!-- Defines a list item -->
+				<li>Second element</li> <!-- Defines a list item -->
+			</ol>
+
+			<h3>Unordered list</h3> <!-- Defines HTML headings -->
+			<ul> <!-- <ul>	Defines an unordered list -->
+				<li>First list item</li> <!-- Defines a list item -->
+				<li>Second list item</li> <!-- Defines a list item -->
+				<li>Third list item</li> <!-- Defines a list item -->
+			</ul>
+		</section>
+
+		<h2>Tables</h2> <!-- Defines a section in a document -->
+		<table> <!-- Defines a table -->
+			<thead> <!-- Groups the header content in a table -->
+				<tr> <!-- Defines a row in a table -->
+					<th>Head 1</th> <!-- Defines a header cell in a table -->
+					<th>Head 2</th> <!-- Defines a header cell in a table -->
+				</tr>
+			</thead>
+			<tbody> <!-- Groups the body content in a table -->
+				<tr> <!-- Defines a row in a table -->
+					<td>Element 1</td> <!-- Defines a cell in a table -->
+					<td>Element 2</td> <!-- Defines a cell in a table -->
+				</tr>
+				<tr> <!-- Defines a row in a table -->
+					<td>Element 3</td> <!-- Defines a cell in a table -->
+					<td>Element 4</td> <!-- Defines a cell in a table -->
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr> <!-- Defines a row in a table -->
+					<td>Footer table element 1</td> <!-- Defines a cell in a table -->
+					<td>Footer table element 2</td> <!-- Defines a cell in a table -->
+				</tr>
+			</tfoot>
+		</table>
+
+		<!-- Defines a section in a document -->
+		<span>
+			<!-- Defines a video or movie -->
+			<video width="320" height="240" controls>
+				<source src="assets/movie.mp4" type="video/mp4">
+				<source src="assets/movie.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+			</video>
+		</span>
+		
+		 <!-- Defines a footer for a document or section -->
+		<footer>
+			<h3>I am the footer :)</h3> <!-- Defines HTML headings -->
+
+			<!-- "p" Defines a paragraph -->
+			<!-- "strong" Defines important text -->
+			<p>Yes. i mean <strong>THE FOOTER</strong></p>
+		</footer>
+
+
+	</body>
+</html>

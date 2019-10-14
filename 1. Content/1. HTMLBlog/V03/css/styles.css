@@ -1,0 +1,12 @@
+/* This is a css comment */
+/* from http://www.w3schools.com/css/css_howto.asp */
+
+body {
+    background-color: lightblue;
+    padding-left: 20px;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
